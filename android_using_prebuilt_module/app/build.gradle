@@ -34,7 +34,7 @@ repositories {
     // maven { url 'https://gitlab.com/api/v4/projects/42184061/packages/maven' }
     maven {
         // This maven repo contains artifacts for Flutter's Android embedding.
-        url 'https://storage.googleapis.com/download.flutter.io'
+        url 'https://storage.flutter-io.cn/download.flutter.io'
     }
 }
 
