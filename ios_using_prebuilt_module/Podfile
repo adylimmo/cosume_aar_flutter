@@ -1,0 +1,12 @@
+platform :ios, '12'
+
+target 'IOSUsingPrebuiltModule' do
+  use_frameworks!
+  # for development
+  # pod 'Flutter', :podspec => '../Flutter.podspec'
+  # pod 'Module', :path => '../'
+
+  # for release
+  pod 'Flutter', :podspec => 'https://gitlab.com/kmm-pokemon/evolve/-/raw/main/Flutter.podspec?ref_type=heads&inline=false'
+  pod 'Module', :git => 'https://gitlab.com/tossaro/flutter-module-registry.git'
+end

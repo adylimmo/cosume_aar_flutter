@@ -1,0 +1,22 @@
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+.build/
+build/
+
+Pods
+Podfile.lock
+IOSUsingPrebuiltModule.xcworkspace
+
+## Pre-built Flutter frameworks for flutter_module
+Flutter/Debug/
+Flutter/Profile/
+Flutter/Release/

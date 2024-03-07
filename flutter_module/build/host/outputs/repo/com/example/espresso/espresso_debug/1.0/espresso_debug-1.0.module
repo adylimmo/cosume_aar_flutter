@@ -1,0 +1,293 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.espresso",
+    "module": "espresso_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-core",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "truth",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.truth",
+          "module": "truth",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-contrib",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-intents",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-accessibility",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-web",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso.idling",
+          "module": "idling-concurrent",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-idling-resource",
+          "version": {
+            "requires": "3.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "espresso_debug-1.0.aar",
+          "url": "espresso_debug-1.0.aar",
+          "size": 125827,
+          "sha512": "369ac724511564d4948472e82fb87a3f70249c07c74fe35fcb03a591a69531689f372ef656d2d1a177d28c00066162d7f7e1cefb8d7e0ec70a23bbab6f9c7fa4",
+          "sha256": "4214b045189382f5281f83ff1f3f355752eb7a91171086293fda7634524296f4",
+          "sha1": "67fa2e804ad5229aa33a40f9c925039a58ede150",
+          "md5": "7a98319535698c02ed5aac2df93f84a2"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-04817c99c9fd4956f27505204f7e344335810aed"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-android"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-core",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "truth",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.truth",
+          "module": "truth",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-contrib",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-intents",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-accessibility",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-web",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso.idling",
+          "module": "idling-concurrent",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-idling-resource",
+          "version": {
+            "requires": "3.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "espresso_debug-1.0.aar",
+          "url": "espresso_debug-1.0.aar",
+          "size": 125827,
+          "sha512": "369ac724511564d4948472e82fb87a3f70249c07c74fe35fcb03a591a69531689f372ef656d2d1a177d28c00066162d7f7e1cefb8d7e0ec70a23bbab6f9c7fa4",
+          "sha256": "4214b045189382f5281f83ff1f3f355752eb7a91171086293fda7634524296f4",
+          "sha1": "67fa2e804ad5229aa33a40f9c925039a58ede150",
+          "md5": "7a98319535698c02ed5aac2df93f84a2"
+        }
+      ]
+    }
+  ]
+}
